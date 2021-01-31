@@ -7,14 +7,14 @@ public enum Curso {
 	TERCERO("3º ESO"), 
 	CUARTO("4º ESO");
 
-	private String aMostrar;
+	private String cadenaAMostrar;
 	
-	private Curso(String aMostrar) {
-		this.aMostrar = aMostrar;
+	private Curso(String cadenaAMostrar) {
+		this.cadenaAMostrar = cadenaAMostrar;
 	}
 
 	public String toString() {
-		return aMostrar;
+		return cadenaAMostrar;
 	}
 	
 }
