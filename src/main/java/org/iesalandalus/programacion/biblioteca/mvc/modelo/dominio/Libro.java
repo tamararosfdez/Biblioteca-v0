@@ -77,9 +77,9 @@ public class Libro {
 		this.numPaginas = numPaginas;
 	}
 	
-	public float getPuntos()
+	 public float getPuntos()
 	{
-		return 0.5f+(int)(getNumPaginas()/25)*0.5f;
+		return 0.5f+(int)(getNumPaginas()/25);
 	}
 
 	public int hashCode() {
